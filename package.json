@@ -1,0 +1,43 @@
+{
+    "name": "monokai-vibrant",
+    "displayName": "Monokai Vibrant",
+    "description": "A very dark and vibrant Monokai based theme.",
+    "version": "0.5.3",
+    "publisher": "s3gf4ult",
+    "icon": "images/icon.png",
+    "author": "Dylan Marsh <dylan@knoware.co>",
+    "license": "MIT",
+    "galleryBanner": {
+        "color": "#16171d",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dylantmarsh/monokai-vibrant.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dylantmarsh/monokai-vibrant/issues"
+    },
+    "homepage": "https://github.com/dylantmarsh/monokai-vibrant/blob/master/README.md",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "monokai",
+        "vibrant",
+        "dark",
+        "colorful"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Vibrant",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai Vibrant-color-theme.json"
+            }
+        ]
+    }
+}
