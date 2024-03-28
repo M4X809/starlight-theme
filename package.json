@@ -13,12 +13,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/dylantmarsh/monokai-vibrant.git"
+        "url": "https://github.com/M4X809/starlight-theme.git"
     },
     "bugs": {
-        "url": "https://github.com/dylantmarsh/monokai-vibrant/issues"
+        "url": "https://github.com/M4X809/starlight-theme/issues"
     },
-    "homepage": "https://github.com/dylantmarsh/monokai-vibrant/blob/master/README.md",
+    "homepage": "https://github.com/M4X809/starlight-theme/blob/main/README.md",
     "engines": {
         "vscode": "^1.15.0"
     },

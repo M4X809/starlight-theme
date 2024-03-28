@@ -10,18 +10,6 @@
 * 🌙 Dark editor color scheme
 * 🎨 Vibrant colors
 
-<!-- ## Install
-
-1. Open the **Extensions** sidebar in VS Code.
-2. Search for `Monokai Vibrant`. Choose the one by **s3gf4ult**
-3. Click the **Install** button
-4. Go to Preferences ‣ Color Theme ‣ **Monokai Vibrant**
- -->
-
-
-## Extras
-
-A long-term goal of this project is to provide color schemes for other popular applications in the `/extras` folder. A vim/nvim theme would be greatly appreciated if anyone is interested in contributing.
 
 ---
 
