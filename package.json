@@ -1,6 +1,6 @@
 {
-    "name": "monokai-vibrant",
-    "displayName": "Monokai Vibrant",
+    "name": "starlight-theme",
+    "displayName": "Starlight Vibrant (Monokai Variant)",
     "description": "A very dark and vibrant Monokai based theme.",
     "version": "0.5.3",
     "publisher": "s3gf4ult",
@@ -29,14 +29,15 @@
         "monokai",
         "vibrant",
         "dark",
-        "colorful"
+        "colorful",
+        "typescript"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "Monokai Vibrant",
+                "label": "Starlight Vibrant (Monokai Vibrant)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Monokai Vibrant-color-theme.json"
+                "path": "./themes/Starlight vibrant-color-theme.json"
             }
         ]
     }

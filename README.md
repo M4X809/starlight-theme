@@ -11,11 +11,10 @@
     <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/s3gf4ult.monokai-vibrant?color=%23ff9700&style=for-the-badge">
 </p>
 
-![Monokai Vibrant JavaScript Example](https://f000.backblazeb2.com/file/app-media/monokai-vibrant.jpg)
+<!-- ![Monokai Vibrant JavaScript Example](https://f000.backblazeb2.com/file/app-media/monokai-vibrant.jpg) -->
 
-* 🌙 Super dark editor color scheme
-* 🍭 Vibrant colors for better readability
-* 💻 Italicized keywords compliments "Operator Mono" or similar fonts (optional)
+* 🌙 Dark editor color scheme
+* 🎨 Vibrant colors
 
 ## Install
 
@@ -25,29 +24,6 @@
 4. Go to Preferences ‣ Color Theme ‣ **Monokai Vibrant**
 
 ## Disable Italics
-
-If you are not using a font that does not support italics, you can add this to your `settings.json` to disable them.
-
-```json
-"editor.tokenColorCustomizations": {
-  "textMateRules": [
-    {
-      "name": "Monokai Vibrant - No Italics",
-      "scope": [
-        "comment",
-        "string.comment",
-        "variable.language",
-        "keyword",
-        "storage",
-        "variable.parameter"
-      ],
-      "settings": {
-        "fontStyle": ""
-      }
-    }
-  ]
-}
-```
 
 ## Extras
 
