@@ -11,6 +11,11 @@
 * 🎨 Vibrant colors
 
 
+Based on [Julia Color Themes](https://marketplace.visualstudio.com/items?itemName=cameronbieganek.julia-color-themes) Julia Color Themes
+
+
 ---
+
+
 
 Don't forget to leave a review on the marketplace! **Enjoy!**
