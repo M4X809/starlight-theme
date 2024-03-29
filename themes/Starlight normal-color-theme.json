@@ -1,5 +1,5 @@
 {
-	"name": "Starlight Vibrant 1",
+	"name": "Starlight Vibrant 2",
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#0D1117",
@@ -10,7 +10,7 @@
 		"dropdown.background": "#1d1f23",
 		"diffEditor.insertedTextBackground": "#00809B33",
 		"dropdown.border": "#181A11",
-		"editor.background": "#0D1117",
+		"editor.background": "#141a24",
 		"editor.foreground": "#f8f8f0",
 		"editorError.foreground": "#c24038",
 		"editorRuler.foreground": "#484848",
@@ -72,7 +72,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#FFD945"
+				"foreground": "#d87f2b"
 			}
 		},
 		{
@@ -86,7 +86,7 @@
 			"name": "TemplateString",
 			"scope": "string.template",
 			"settings": {
-				"foreground": "#E5A422"
+				"foreground": "#d87f2b"
 			}
 		},
 		{
@@ -148,18 +148,26 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": ["keyword", "keyword.operator.logical", "keyword.operator.constructor"],
+			"scope": ["keyword"],
+			"settings": {
+				"foreground": "#FF3F4F"
+				// "fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Keyword Control",
+			"scope": ["keyword.control.conditional", "keyword.control.flow"],
 			"settings": {
 				"foreground": "#FF3F4F",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"name": "Keyword Operator",
-			"scope": "keyword.operator",
+			"name": "Keyword Control",
+			"scope": "keyword.operator.logical",
 			"settings": {
 				"foreground": "#FF3F4F",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -209,7 +217,7 @@
 			"name": "Function name",
 			"scope": ["entity.name.function", "support.function"],
 			"settings": {
-				"foreground": "#81F900"
+				"foreground": "#FFD945"
 			}
 		},
 		{
@@ -488,5 +496,10 @@
 				"foreground": "#ffffff"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"parameter": "#9CDCFE",
+		"variable.readonly": "#4FC1FF"
+	}
 }

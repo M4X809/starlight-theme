@@ -2,7 +2,7 @@
     "name": "starlight-bot-theme",
     "displayName": "Starlight Themes",
     "description": "A very dark and vibrant Monokai based theme.",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "publisher": "Starlight-Bot",
     "icon": "images/icon.png",
     "author": "M4X809",
@@ -35,9 +35,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Starlight Vibrant (Monokai Vibrant)",
+                "label": "Starlight Vibrant 1",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Starlight vibrant-color-theme.json"
+            },
+            {
+                "label": "Starlight Vibrant 2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Starlight normal-color-theme.json"
             }
         ]
     }
